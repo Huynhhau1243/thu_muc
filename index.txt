@@ -1,0 +1,34 @@
+b1: 
+-> input: Nhap so tien vnd muon doi sang usd
+-> process: 24 / vnd 
+-> output: tien usd can doi
+
+b2:
+-> input : Toan, ly, hoa
+-> process: dtb = toan + ly + hoa / 3; 
+        + neu dtb < 5 diem tb;
+        + neu dtb > 5 diem kha;
+        + neu dtb > 8 diem gioi;
+-> Output: in ra diem trung binh
+
+bai3:
+-> input: a, b, c
+-> process: delta = b ** 2 - (4 * a * c);
+        + neu delta < 0 => Pt vo nghiem
+        + neu delta = 0 => pt co no kep x1 = x2 = - b/ 2a
+        + neu delta > 0 => 2 nghiem phan biet 
+-> output: in ra nghiem 
+
+bai 4: 
+-> input: Nhap do de doi sang radian;
+-> process: 
+    + pi = 3.14
+    + radian = do * pi / 180;
+-> output: in ra radian da doi tu do sang      
+
+bai5: 
++ input:  a , b;
++ process: + neu a == b;
+            => a bang b 
+           + neu a != b;
+            => in ra a khac b;
